@@ -1,0 +1,22 @@
+seed: 42
+
+data:
+  path: "data/sample_fb_ads.csv"
+  date_column: "date"
+
+thresholds:
+  min_impressions: 1000
+  low_ctr: 0.01
+  recent_window_days: 7
+  reference_window_days: 7
+  min_days_for_trend: 14
+
+paths:
+  insights_json: "reports/insights.json"
+  creatives_json: "reports/creatives.json"
+  report_md: "reports/report.md"
+  logs_dir: "logs"
+
+roas:
+  roas_change_abs_threshold: 0.2
+  roas_change_rel_threshold: 0.1

@@ -1,0 +1,15 @@
+{"timestamp": "2025-11-26T11:55:45.791684", "event": "query_received", "payload": {"query": "Analyze ROAS drop"}}
+{"timestamp": "2025-11-26T11:55:45.792129", "event": "plan", "payload": {"diagnose": true, "creative": false}}
+{"timestamp": "2025-11-26T11:55:45.823357", "event": "loaded_data", "payload": {"rows": 4500}}
+{"timestamp": "2025-11-26T11:55:45.824422", "event": "evaluated_hypotheses", "payload": {"count": 0}}
+{"timestamp": "2025-11-26T11:55:45.825755", "event": "pipeline_complete", "payload": {"hypotheses": 0, "creatives": 0}}
+{"timestamp": "2025-11-26T11:58:06.372216", "event": "query_received", "payload": {"query": "creative ideas for ads"}}
+{"timestamp": "2025-11-26T11:58:06.374799", "event": "plan", "payload": {"diagnose": false, "creative": true}}
+{"timestamp": "2025-11-26T11:58:06.399285", "event": "loaded_data", "payload": {"rows": 4500}}
+{"timestamp": "2025-11-26T11:58:06.456794", "event": "creative_recos", "payload": {"count": 309}}
+{"event": "query_received", "payload": {"query": "Analyze ROAS drop"}, "timestamp": "2025-11-26T12:04:57.812681"}
+{"event": "planner_output", "payload": {"diagnose": true, "creative": false}, "timestamp": "2025-11-26T12:04:57.812966"}
+{"event": "loaded_data", "payload": {"rows": 4500}, "timestamp": "2025-11-26T12:04:57.837100"}
+{"event": "evaluated_hypotheses", "payload": {"count": 0}, "timestamp": "2025-11-26T12:04:57.837909"}
+{"event": "insights_generated", "payload": [], "timestamp": "2025-11-26T12:04:57.838668"}
+{"event": "pipeline_complete", "payload": {"hypotheses_count": 0, "creatives_count": 0}, "timestamp": "2025-11-26T12:04:57.839358"}
