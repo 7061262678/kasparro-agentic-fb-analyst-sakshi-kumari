@@ -89,3 +89,19 @@
   <a href='https://linkedin.com/in/sakshi-1kumari-'><img src='https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white' /></a>
   <a href='mailto:sakshi62992@gmail.com'><img src='https://img.shields.io/badge/Email-Contact-EA4335?logo=gmail&logoColor=white' /></a>
 </p>
+"# 7061262678" 
+
+## 🏆 Custom Achievement Badges
+<p align="center">
+  <img src="badges/python.png" />
+  <img src="badges/cpp.png" />
+  <img src="badges/java.png" />
+  <img src="badges/javascript.png" />
+  <img src="badges/ml.png" />
+  <img src="badges/genai.png" />
+  <img src="badges/nlp.png" />
+  <img src="badges/fast_learner.png" />
+  <img src="badges/dsa.png" />
+  <img src="badges/ai_builder.png" />
+</p>
+
