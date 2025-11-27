@@ -8,10 +8,43 @@ This line is added only for the self-review PR.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 python run.py "Analyze ROAS drop"
+
+---
+
+## Autonomous Agentic Facebook Performance Analyst
+
+### Project Overview
+This system autonomously analyzes Facebook Ads performance and explains **why ROAS changed**, **what caused the change**, and **how to improve creatives**.
+
+The pipeline includes 5 collaborating agents:
+
+| Agent           | Role                                           |
+|----------------|-------------------------------------------------|
+| Planner Agent  | Breaks the marketing question into subtasks     |
+| Data Agent     | Loads & aggregates the dataset                  |
+| Insight Agent  | Generates ROAS-related hypotheses               |
+| Evaluator Agent| Scores hypotheses with quantitative confidence  |
+| Creative Agent | Suggests ad copy for low-CTR campaigns          |
+
+**Outputs written by the pipeline:**
+
+- `reports/insights.json`
+- `reports/creatives.json`
+- `reports/report.md`
+- `logs/run.jsonl`
+
+---
+
+## Run The Project
+
+```bash
+pip install -r requirements.txt
+python run.py "Analyze ROAS drop"
+python run.py "creative ideas for ads"
