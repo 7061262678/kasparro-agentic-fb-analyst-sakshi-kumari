@@ -48,3 +48,17 @@ The pipeline includes 5 collaborating agents:
 pip install -r requirements.txt
 python run.py "Analyze ROAS drop"
 python run.py "creative ideas for ads"
+
+
+---
+
+## 🛠 Tech Stack & Skills (Kasparro Project)
+
+| Category | Tools / Skills |
+|----------|----------------|
+| Programming | Python |
+| AI / ML | Applied AI • Prompt Engineering • Agent Reasoning |
+| Data Work | Pandas • CSV • Insights & Hypothesis Scoring |
+| Architecture | Multi-Agent Pipeline • Orchestrator Model |
+| Output | JSON • Markdown Reports • Trace Logging |
+
